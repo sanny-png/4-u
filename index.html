@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Baby Face ❤️</title>
+
+    <!-- Cute Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <audio id="bgMusic" loop>
+        <source src="2Pac - Do For Love (Official Music Video) ft. Eric Williams [0VGjV8Suyvg].mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="container">
+
+        <h1>Hey Baby Face ❤️</h1>
+
+        <div class="slideshow">
+            <img id="slide" src="IMG-20260408-WA0026(1).jpg" alt="photo">
+        </div>
+
+        <div class="story-box">
+            <p>"Trouble makes my life interesting."</p>
+            <p>"I love plot twists."</p>
+            <p>"There's a lot you don't know about me."</p>
+        </div>
+
+        <h2>Quick Quiz 😌</h2>
+
+        <div class="question">
+            <p>Do you love me?</p>
+
+            <button onclick="yesAnswer()">Yes ❤️</button>
+
+            <button id="noBtn" onmouseover="moveButton()">
+                No 💔
+            </button>
+        </div>
+
+        <button onclick="revealMessage()">Tap me 👀</button>
+        <p id="secret"></p>
+
+        <p id="result"></p>
+
+    </div>
+
+    <canvas id="hearts"></canvas>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
